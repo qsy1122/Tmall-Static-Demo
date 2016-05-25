@@ -1,0 +1,186 @@
+/*@charset "utf-8"*/
+
+.comWidth {
+    width: 1260px;
+    margin: 0 auto
+}
+.fl,
+.leftArea {
+    float: left;
+}
+.fr,
+.rightArea {
+    float: right;
+}
+.top_ad {
+    background: #FED200;
+    height: 80px;
+}
+.top_ad img {
+    width: 900px;
+    margin: 0 auto;
+    height: 80px;
+    display: block;
+    cursor: pointer;
+}
+/*header*/
+/*topBar*/
+
+.topBar {
+    background: #F2F2F2;
+    height: 32px;
+    border-bottom: #E5E5E5 solid 1px;
+    color: #999;
+    height: 32px;
+    line-height: 32px;
+    font-size: 11px;
+}
+.topBar .leftArea li {
+    float: left;
+    padding-right: 20px;
+}
+.topBar .rightArea li {
+    padding: 0 10px;
+    float: left;
+}
+.left-icon {
+    padding-left: 17px
+}
+/*logoBar*/
+
+.logoBar {
+    height: 130px;
+}
+.logoBar .logo {
+    margin-left: -45px;
+    height: 130px
+}
+.search_box {
+    margin-left: 173px;
+    padding-top: 38px;
+    width: 640px;
+}
+.search_input {
+    height: 36px;
+    width: 496px;
+    border: solid 2px #C40000;
+    padding-left: 8px
+}
+.search_btn {
+    height: 40px;
+    width: 130px;
+    background-color: #c40000;
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+    line-height: 36px;
+    font-size: 18px
+}
+.search_box dl {
+    width: 630px;
+    overflow: hidden;
+    height: 30px;
+}
+.search_box dl dt,
+.search_box dl dd {
+    float: left;
+    padding: 0 13px;
+    margin-top: 8px;
+}
+.search_box dl dd {
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    height: 15px;
+}
+.search_box dl dd a {
+    color: #c40000;
+}
+/*nav*/
+
+nav {
+    background: #DD2727;
+    height: 36px;
+}
+nav .nav_position {
+    position: relative;
+}
+nav .nav_left {
+    position: absolute;
+}
+nav .nav_left .caption {
+    background-color: #C60A0A;
+    width: 200px;
+    height: 36px;
+}
+nav .nav_left h3 {
+    text-indent: 40px;
+    line-height: 36px;
+    font-size: 16px;
+    color: #fff;
+}
+nav .nav_left h3 span {
+    width: 14px;
+}
+nav .nav_left .shopClass_list {
+    position: absolute;
+    left: 0;
+    top: 36px;
+    width: 200px;
+    background: #ededed;
+    opacity: 0.8
+}
+nav .nav_left .shopClass_list li {
+    height: 12px;
+    width: 168px;
+    font-size: 12px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 14px;
+    line-height: 12px;
+}
+nav .nav_left .shopClass_list li a {
+    color: #000;
+}
+nav .nav_left .shopClass_list li i {
+    width: 24px;
+    height: 13px;
+    display: inline-block;
+}
+nav .nav_left .shopClass_list li:hover {
+    background-color: #fff;
+}
+nav .nav_left .shopClass_list li:hover a {
+    color: blue;
+}
+/*navright*/
+
+nav .nav_right {
+    position: absolute;
+    left: 200px;
+    top: 0;
+}
+nav .nav_right li {
+    padding: 0 16px;
+    float: left;
+    height: 36px;
+}
+nav .nav_right li a {
+    line-height: 36px;
+    color: #fff;
+    font-size: 16px;
+}
+nav .nav_right li a img {
+    width: 92px;
+    padding-top: 10px
+}
+/*bannerBar*/
+/*.bannerBar{}
+.banner_mid{position: relative;height: 500px;}
+.banner_mid .bannerImg{position: absolute;top: 0;left: 0}
+.banner_left{background: yellow;display: inline-block;margin:0 0;}
+.banner_right{background: blue;display: inline-block;margin: 0 0;}
+*/
+/*.banner_mid{position: relative;}
+.banner_mid .bannerImg{position: absolute;left: 0;top:0;margin:0 auto; height: 500px;width:1180px;background: yellow }
+.banner_left{height: 500px;background-color: red;margin-right: 0}
+.banner_right{height: 500px;background-color: blue;margin-left: 0}
