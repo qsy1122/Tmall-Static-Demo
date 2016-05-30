@@ -1559,10 +1559,14 @@
             
             setInterval(function () {
                 oImg.style.left=-1130*x+'px';
+                for (var i = 0; i < aA.length; i++) {
+                    aA[i].className="";
+                }
+                aA[x].className="active";
                 x==0?bg.style.background="#ff63be":bg.style.background="#e8e8e8";
                 x++;
                 if (x>4) {x=0}
-            },500)
+            },2000)
         }
             
 // 侧边导航条
